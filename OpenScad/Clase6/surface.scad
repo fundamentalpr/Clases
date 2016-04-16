@@ -1,0 +1,1 @@
+surface(file = "logoblack&white.png", center = true, invert = true);

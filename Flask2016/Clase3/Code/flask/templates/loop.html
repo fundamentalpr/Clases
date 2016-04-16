@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Un loop</title>
+</head>
+<body>
+<ul >
+    {% include 'header.html' %}
+    <br/>
+    {% for name in users %}
+    <li style="color:{% if name=='Pepe' %}Red{% endif %}">{{name}}
+
+        {% if name=='Pepe' %}
+          - Es el mejor empleado
+        {% else %}
+        - Es un empleado
+        {% endif %}
+
+
+
+
+
+
+
+    </li>
+
+    {% endfor %}
+    </ul>
+<br/>
+{% include 'footer.html' %}
+</body>
+</html>

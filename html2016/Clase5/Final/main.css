@@ -1,0 +1,212 @@
+body
+{
+	background-color:#C63D0F;
+	width:80%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: #FDF3E7;
+}
+
+p
+{
+	text-align: left;
+	border-color: #3B3738;
+	border-width: 2px;
+	border-style: dotted;
+	padding: 5px;
+}
+
+
+h1
+{
+	background-color:#3B3738;
+	color: #FDF3E7;
+	width:100%;
+}
+
+h2
+{
+	background-color:#FDF3E7;
+	color:#3B3738;
+	width:40%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h2.larger
+{
+	width:100%;	
+}
+
+h2.underlined
+{
+	text-decoration: underline;
+}
+
+body.amarillo
+{
+	background-color:Yellow;
+	background-image: url("isabela.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+body.grey
+{	
+	background-image: url("seattle.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% auto;
+	background-color:#3B3738;
+}
+
+
+/* sin visitar */
+a:link {
+    color: #7E8F7C;
+}
+
+/* visitado */
+a:visited {
+    color: #3B3738;
+}
+
+/* mouse encima */
+a:hover {
+    color: #FDF3E7;
+}
+
+/* selecionado */
+a:active {
+     color: #FDF3E7;
+}
+
+
+div
+{
+    border-color: #3B3710;
+	border-width: 2px;
+	border-style: dashed;
+	padding: 15px;
+    background: #6D6367;
+    margin-top:10px;
+}
+
+
+section
+{
+    border-color: #3B3710;
+	border-width: 3px;
+	border-style: double;
+	padding: 15px;
+    background: #6D6367;
+    margin-top:10px;
+}
+
+
+
+ul
+{
+    text-align: left;
+}
+
+
+table tr:nth-child(even) {
+    background-color: yellow;
+    color: black;
+}
+table tr:nth-child(odd) {
+   background-color:green;
+   color: white;
+}
+table th	{
+    background-color: black;
+    color: white;
+}
+
+
+#columna1
+{
+	display: table-cell;
+	width:32%;
+	height:100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#columna2
+{
+	display: table-cell;
+	width:32%;
+	height:100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#columna3
+{
+	display: table-cell;
+	width:32%;
+	height:100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#holder
+{
+	margin-right: auto;
+	margin-left: auto;
+	width:75%;
+}
+
+#holder2
+{
+	margin-right: auto;
+	margin-left: auto;
+	width:85%;
+	background-color: rgba(100, 150, 100, 0.8);	
+	display: table;
+}
+
+#holder3
+{
+	margin-right: auto;
+	margin-left: auto;
+	width:85%;
+	background-color: rgba(100, 100, 100, 0.5);	
+	display: table;
+}
+
+
+#dc1
+{
+	display: table-cell;
+	width:32%;
+	height:100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: transparent;
+	border: none;
+	color:black;
+}
+
+#dc2
+{
+	display: table-cell;
+	width:64%;
+	height:100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: transparent;
+	border: none;	
+}
+
+
+ul.nodecoration li
+{
+	list-style-type: none;	
+	font-size: 400%;
+	background-color: rgba(253, 243, 231, 0.6);	 
+	padding: 10px;
+}

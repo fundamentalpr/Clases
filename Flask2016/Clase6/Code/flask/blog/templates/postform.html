@@ -1,0 +1,8 @@
+{% if  session.logged_in %}
+<form action="/post" method="post">
+    <br/>
+    <br/><textarea name="contenido" cols="40" rows="5"></textarea>
+    <br/>
+    <input type="submit" value="Crear Post">
+</form>
+{%endif%}

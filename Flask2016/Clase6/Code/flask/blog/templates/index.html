@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+{% include 'header.html' %}
+Bienvenido a nuestro blog!
+
+{% for post in usersWithPost %}
+  <h5>{{ post.user }}</h5>
+  <small>{{post.date}}</small>
+  <p>{{post.contenido}}</p>
+ {% endfor %}
+
+
+{% include 'postform.html' %}
+
+
+{% include 'footer.html' %}
+</body>
+</html>

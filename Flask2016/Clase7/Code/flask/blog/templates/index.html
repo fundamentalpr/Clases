@@ -1,0 +1,14 @@
+{%extends "layout.html" %}
+{%block body%}
+Bienvenido a nuestro blog!
+
+{% for post in usersWithPost %}
+<div class="entries">
+    <img src="{{post.photo}}" style="width:50%"/>
+  <h5>{{ post.user }}</h5>
+  <small>{{post.date}}</small>
+  <p>{{post.contenido|safe}}</p>
+
+</div>
+ {% endfor %}
+{%endblock%}

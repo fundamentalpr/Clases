@@ -1,0 +1,37 @@
+html
+{
+	height:100%;
+}
+
+body
+{	
+	width:80%;
+	margin-right: auto;
+	margin-left: auto;
+	height:100%;
+}
+
+div
+{
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+}
+
+#header
+{
+	height:15%;
+	display: block;
+}
+
+#menu
+{
+	height:10%;
+	display: block;
+}
+
+#cuerpo
+{
+	height:65%;
+	display: block;
+}

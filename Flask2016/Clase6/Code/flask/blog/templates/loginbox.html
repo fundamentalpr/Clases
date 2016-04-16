@@ -1,0 +1,13 @@
+{% if  not session.logged_in %}
+<form action="/login" method="post">
+    username:<input type="text" name="username">
+    password:<input type="text" name="password">
+    <input type="hidden" name="nextpage" value= "/">
+    <input type="submit" value="submit">
+    <a href="/static/registro.html">registro</a>
+</form>
+{%endif%}
+{% if  session.logged_in %}
+ <div> Hola {{session.username}} </div>
+ <div> <a href="/logout"> Log Out</a></div>
+{%endif%}
